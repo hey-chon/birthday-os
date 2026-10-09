@@ -34,6 +34,7 @@ p { margin: 0; }
 .pink { color: var(--pink); }
 .cyan { color: var(--cyan); }
 .ascii { margin: 24px 0 18px; color: var(--primary); font: 18px/1.25 monospace; white-space: pre; }
+.portrait { margin: 20px 0; color: var(--primary); font: 14px/1 monospace; white-space: pre; overflow-x: auto; max-width: 100%; }
 .package { margin: 5px 0; color: var(--foreground); }
 .package .progress { color: var(--primary); }
 form { display: flex; align-items: baseline; gap: 10px; }
