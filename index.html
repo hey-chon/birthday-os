@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>bebii.os — Birthday Terminal</title>
+<meta name="description" content="A birthday terminal for bebii. October 17, 2026.">
+<meta property="og:title" content="bebii.os — Birthday Terminal">
+<meta property="og:description" content="A little birthday surprise for bebii.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="styles.css">
+<script type="module" src="terminal.js"></script>
+</head>
+<body>
+<header class="brand">bebii<span>.os</span></header>
+<main aria-label="Birthday OS terminal">
+<div class="window-bar"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>bebii@termux: ~</span><span aria-hidden="true">−</span></div>
+<div id="screen">
+<div id="welcome"><p>Welcome to Birthday OS, bebii.</p><p class="muted">A little birthday surprise for October 17, 2026.</p><p class="muted">Type <span class="pink">guide</span> below and press Enter to see the commands.</p></div>
+<div id="output" role="log" aria-live="polite" aria-label="Command output"></div>
+<form id="command-form"><label for="command">bebii@termux:~ $</label><input id="command" aria-label="Terminal command" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" enterkeyhint="send"></form>
+</div>
+</main>
+</body>
+</html>
